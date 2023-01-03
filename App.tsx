@@ -1,6 +1,8 @@
 import React from 'react';
 import {SafeAreaView} from 'react-native';
-import {PositionScreen} from './src/screens/PositionScreen';
+import { TareaScreen } from './src/screens/TareaScreen';
+// import { FlexScreen } from './src/screens/FlexScreen';
+// import {PositionScreen} from './src/screens/PositionScreen';
 // import {DimensionsScreen} from './src/screens/DimensionsScreen';
 // import {BoxObjectModelScreen} from './src/screens/BoxObjectModelScreen';
 // import {ContadorScreen} from './src/screens/ContadorScreen';
@@ -13,7 +15,9 @@ const App = () => {
       {/* <ContadorScreen /> */}
       {/* <BoxObjectModelScreen /> */}
       {/* <DimensionsScreen /> */}
-      <PositionScreen />
+      {/* <PositionScreen /> */}
+      {/* <FlexScreen/> */}
+      <TareaScreen/>
     </SafeAreaView>
   );
 };
