@@ -14,6 +14,7 @@ module.exports = {
         'no-shadow': 'off',
         'no-undef': 'off',
         'react-native/no-inline-styles': 'off',
+        '@typescript-eslint/no-unused-vars': 'off',
       },
     },
   ],
